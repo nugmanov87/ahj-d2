@@ -1,7 +1,7 @@
 # ahj-diplom
 
-https://nugmanov87.github.io/ahj-diplom-front/
-[![Build status](https://ci.appveyor.com/api/projects/status/uoyi31bw96b9lenk?svg=true)](https://ci.appveyor.com/project/nugmanov87/ahj-diplom-front)
+https://nugmanov87.github.io/ahj-d2/
+[![Build status](https://ci.appveyor.com/api/projects/status/9rc6vgt0dt9d6jcx?svg=true)](https://ci.appveyor.com/project/nugmanov87/ahj-d2)
 
 ## Реализованны функции
 
