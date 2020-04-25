@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/no-unresolved
 import Worker from './web-worker.js';
 import PrintMessage from './print-message.js';
-import Crypt from './crypt.js';
+import CryptKey from './CryptKey.js';
 
 const localArrMessages = [];
 const urls = 'ahj-diplom-server.herokuapp.com';
@@ -11,7 +11,7 @@ export default class TransferMessage {
     this.keyCrypt = crypt;
     this.urlWS = `wss://${urls}/ws`;
     this.url = `https://${urls}/`;
-    this.crypt = new Crypt(crypt);
+    this.crypt = new CryptKey(crypt);
     this.lazyStart = true;
   }
 
