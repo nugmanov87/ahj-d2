@@ -1,6 +1,4 @@
-// eslint-disable-next-line import/no-unresolved
 import CryptoJS from 'crypto-js';
-
 
 function enCrypt(objMsg, crypton) {
   const itemMsg = objMsg;
@@ -20,7 +18,9 @@ function deCrypt(objMsg, crypton) {
   }
 }
 
-self.addEventListener("message", async (event) => {  // eslint-disable-line
+// eslint-disable-next-line no-restricted-globals
+self.addEventListener('message', async (event) => {
+  // eslint-disable-line
   let content = '';
   if (event.data.workCrypt === 'enCrypt') {
     content = await enCrypt(event.data.file, event.data.keyCrypt);
@@ -35,5 +35,3 @@ self.addEventListener("message", async (event) => {  // eslint-disable-line
     self.close(); // eslint-disable-line
   }
 });
-
-export { enCrypt, deCrypt };

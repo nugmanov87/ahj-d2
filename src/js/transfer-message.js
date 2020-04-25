@@ -1,6 +1,7 @@
+// eslint-disable-next-line import/no-unresolved
 import Worker from './web-worker.js';
 import PrintMessage from './print-message.js';
-import Crypt from './Crypt.js';
+import Crypt from './crypt.js';
 
 const localArrMessages = [];
 const urls = 'ahj-diplom-server.herokuapp.com';
