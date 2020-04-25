@@ -41,7 +41,7 @@ module.exports = {
         use: [MiniCssExtractPlugin.loader, "css-loader"]
       },
       {
-        test: /web-worker\.js$/,
+        test: /webWorker\.js$/,
         use: { loader: "worker-loader" }
       },
       {

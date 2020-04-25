@@ -1,7 +1,7 @@
 /* eslint-disable import/no-named-as-default */
-import validateGEO from './get-geolocation.js';
+import validateGEO from './getGeolocation.js';
 
-export default class Popup {
+export default class PopupShow {
   init() {
     this.popup = document.createElement('div');
     this.popup.className = 'popup hidden';

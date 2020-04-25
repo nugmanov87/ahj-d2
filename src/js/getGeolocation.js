@@ -1,4 +1,4 @@
-import callPopup from './call-popup.js';
+import callPopup from './callPopup.js';
 
 export default function getGEO(popup) {
   const popupInp = document.querySelector('.popup-inp');

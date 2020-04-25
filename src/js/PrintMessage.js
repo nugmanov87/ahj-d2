@@ -4,7 +4,7 @@
 import hljs from 'highlight.js';
 // eslint-disable-next-line import/no-unresolved
 import 'highlight.js/styles/github.css';
-import printTime from './print-time.js';
+import printTime from './printTime.js';
 
 export default class PrintMessage {
   constructor(parentEl, crypton) {

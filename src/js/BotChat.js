@@ -1,5 +1,5 @@
 /* eslint-disable class-methods-use-this */
-import printTime from './print-time.js';
+import printTime from './printTime.js';
 
 export default class BotChat {
   constructor(parentEl) {

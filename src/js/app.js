@@ -1,15 +1,15 @@
 /* eslint-disable import/no-unresolved */
-import TransferMessage from './transfer-message.js';
-import Popup from './popup.js';
-import RecAudioVideo from './rec-audio-video.js';
-import getGEO from './get-geolocation.js';
+import TransferMessage from './TransferMessage.js';
+import PopupShow from './PopupShow.js';
+import RecAudioVideo from './RecAudioVideo.js';
+import getGEO from './getGeolocation.js';
 import BotChat from './BotChat.js';
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 const uuid = require('uuid');
 
 const elAddFile = document.querySelector('.add-file');
-const popup = new Popup();
+const popup = new PopupShow();
 popup.init();
 
 let transferMsg = {};
