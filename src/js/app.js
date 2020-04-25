@@ -3,7 +3,7 @@ import TransferMessage from './transfer-message.js';
 import Popup from './popup.js';
 import RecAudioVideo from './rec-audio-video.js';
 import getGEO from './get-geolocation.js';
-import BotChat from './Bot-chat.js';
+import BotChat from './BotChat.js';
 
 // eslint-disable-next-line import/no-extraneous-dependencies
 const uuid = require('uuid');
